@@ -8,21 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "About Me",
-      "frontmatter": {},
-      "regularPath": "/about/",
-      "relativePath": "about/README.md",
-      "key": "v-1b8f848a",
-      "path": "/about/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Whats the reason i made this?",
-          "slug": "whats-the-reason-i-made-this"
-        }
-      ]
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -51,6 +36,21 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-9542cd4e",
       "path": "/"
+    },
+    {
+      "title": "About Me",
+      "frontmatter": {},
+      "regularPath": "/about/",
+      "relativePath": "about/README.md",
+      "key": "v-1b8f848a",
+      "path": "/about/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Whats the reason i made this?",
+          "slug": "whats-the-reason-i-made-this"
+        }
+      ]
     },
     {
       "title": "Cara Install",
