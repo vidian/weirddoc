@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Cara Install | Eleh Documentation</title>
+    <meta name="generator" content="VuePress 1.9.5">
+    
+    <meta name="description" content="For someone that always ignore notif bar">
+    
+    <link rel="preload" href="/assets/css/0.styles.7fa910e9.css" as="style"><link rel="preload" href="/assets/js/app.a1c06bea.js" as="script"><link rel="preload" href="/assets/js/2.47d4c024.js" as="script"><link rel="preload" href="/assets/js/9.e9161a24.js" as="script"><link rel="prefetch" href="/assets/js/3.8ebd2adb.js"><link rel="prefetch" href="/assets/js/4.8398614e.js"><link rel="prefetch" href="/assets/js/5.bf29ee68.js"><link rel="prefetch" href="/assets/js/6.291429dc.js"><link rel="prefetch" href="/assets/js/7.a0a91741.js"><link rel="prefetch" href="/assets/js/8.797bf745.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7fa910e9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Eleh Documentation</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/guide/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Guide
+</a></div><div class="nav-item"><a href="/about/" class="nav-link">
+  About Me
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/guide/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Guide
+</a></div><div class="nav-item"><a href="/about/" class="nav-link">
+  About Me
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Cara Install</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/#sebelum-install-dan-sesudah-install" class="sidebar-link">Sebelum Install dan Sesudah Install</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/guide/#issue-hot-reload" class="sidebar-link">Issue Hot Reload</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/guide/#perbandingan-vuepress-dengan-readthedocs" class="sidebar-link">Perbandingan Vuepress dengan Readthedocs</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="cara-install"><a href="#cara-install" class="header-anchor">#</a> Cara Install</h1> <p>Install seperti biasa, sama seperti yang ada di panduan website <a href="https://vuepress.vuejs.org/guide/getting-started.html" target="_blank" rel="noopener noreferrer">vuepress<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p> <h2 id="sebelum-install-dan-sesudah-install"><a href="#sebelum-install-dan-sesudah-install" class="header-anchor">#</a> Sebelum Install dan Sesudah Install</h2> <p style="text-align:justify;">Sebelum install yang diperlukan hanya install node.js dan npm. Setelah itu baru install vuepress. Dan sesudah install ya tinggal baca documentationnya atau nonton tutorial di youtube untuk generate static pagenya. </p> <p><img src="/images/milky.jpg" alt="An image"></p> <h2 id="issue-hot-reload"><a href="#issue-hot-reload" class="header-anchor">#</a> Issue Hot Reload</h2> <p>Ada issue hot reload di beberapa user vuepress, solusinya bisa menambahkan <code>--temp .temp</code> pada package.json di bagian scripts.
+Seperti ini.</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>    
+    <span class="token property">&quot;docs:dev&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vuepress dev docs --temp .temp&quot;</span><span class="token punctuation">,</span>    
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="perbandingan-vuepress-dengan-readthedocs"><a href="#perbandingan-vuepress-dengan-readthedocs" class="header-anchor">#</a> Perbandingan Vuepress dengan Readthedocs</h2> <p style="text-align:justify;">Perbandingannya jelas lebih keren pake vupress, tampilan lebih menarik, modern, dan simple, Readthedocs sangat kompleks dan ribet menurutku haha. Sebenernya karena Vuepress ini lebih keren karena Vue-nya itu sendiri, apalagi bagi yang terbiasa javascript.<br>
+Dua kalimat diatas itu basa - basi, alasan jujurnya karena Vuepress itu Vue.js, jadi keren wkwk dan Readthedocs memang ribet. (Well lebih kompleks aja sih)</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.a1c06bea.js" defer></script><script src="/assets/js/2.47d4c024.js" defer></script><script src="/assets/js/9.e9161a24.js" defer></script>
+  </body>
+</html>
