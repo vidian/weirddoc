@@ -1,6 +1,6 @@
 # About Me
 
-Support pff.
+Support.
 
 ## Whats the reason i made this?
 
